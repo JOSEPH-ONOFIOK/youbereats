@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",       // Target ECMAScript version
+    "module": "CommonJS",     // Module system
+    "outDir": "./dist",       // Output directory for compiled files
+    "strict": true,           // Enable strict type checking
+    "esModuleInterop": true,  // Simplify module interoperability
+    "skipLibCheck": true      // Skip type checking of declaration files
+  },
+  "include": ["src/**/*.ts", "src/config/db/drizzle.config.ts"], // Specify source files
+  "exclude": ["node_modules"] // Exclude node_modules directory
+}
