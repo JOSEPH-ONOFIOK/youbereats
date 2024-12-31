@@ -2,7 +2,7 @@
   "name": "@victor/ubereats",
   "version": "1.0.0",
   "description": "ubereats food delivery application mock",
-  "main": "index.js",
+  "main": "App.js",
   "author": "Victor Onofiok",
   "license": "MIT",
   "scripts": {
@@ -18,25 +18,30 @@
   ],
   "dependencies": {
     "dotenv": "^16.3.1",
+    "drizzle-orm": "^0.28.5",
+    "drizzle-zod": "^0.5.1",
+    "expo": "^52.0.23",
     "express": "^4.18.2",
     "express-validator": "^7.0.1",
     "jsonwebtoken": "^9.0.1",
     "morgan": "^1.10.0",
     "pg": "^8.11.3",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-native": "^0.76.5",
     "uuid": "^9.0.0",
-    "drizzle-orm": "^0.28.5",
-    "drizzle-zod": "^0.5.1",
     "zod": "^3.22.2"
   },
   "devDependencies": {
-    "drizzle-kit": "^0.19.13",
     "@types/express": "^4.17.17",
     "@types/jsonwebtoken": "^9.0.2",
     "@types/morgan": "^1.9.5",
     "@types/pg": "^8.10.2",
+    "@types/react": "~18.3.12",
     "@types/uuid": "^9.0.2",
+    "drizzle-kit": "^0.19.13",
     "nodemon": "^3.0.1",
     "ts-node": "^10.9.1",
-    "typescript": "^5.1.6"
+    "typescript": "^5.3.3"
   }
 }
